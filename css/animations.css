@@ -6,7 +6,7 @@ body::before {
   width: 564px;
   height: 564px;
   z-index: -1;
-  background: #d8826b;
+  background: var(--color1);
   opacity: 0.5;
   filter: blur(564px);
   -webkit-filter: blur(564px);
@@ -27,10 +27,10 @@ body::after {
   width: 628px;
   height: 628px;
   z-index: -1;
-  background: #edd173;
-  opacity: 0.5;
-  filter: blur(628px);
-  -webkit-filter: blur(628px);
+  background: var(--color2);
+  opacity: 0.3;
+  filter: blur(1000px);
+  -webkit-filter: blur(1000px);
   animation: moveCircle2 15s infinite linear;
   -webkit-animation: moveCircle2 15s infinite linear;
   border-radius: var(--max-radius);
